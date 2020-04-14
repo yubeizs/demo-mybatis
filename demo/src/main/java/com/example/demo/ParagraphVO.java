@@ -12,12 +12,6 @@ public class ParagraphVO extends BaseVO {
     /**
      * 附件
      */
-    @AttachAnnotion
     private AttachInfoList attachInfoLists;
-
-    /**
-     * 附件关联Id
-     */
-    private String refId;
 
 }
