@@ -15,4 +15,9 @@ public class AttachVO extends  BaseVO{
     private String name;
     // 附件url
     private String url;
+
+    public AttachVO(String attachId, String name) {
+        this.attachId = attachId;
+        this.name = name;
+    }
 }

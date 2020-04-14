@@ -1,4 +1,13 @@
 package com.example.demo;
 
-public class AttachInfoList {
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class AttachInfoList extends BaseVO{
+
+    private String refId ;
+
+    private List<AttachVO> attachVOList;
 }

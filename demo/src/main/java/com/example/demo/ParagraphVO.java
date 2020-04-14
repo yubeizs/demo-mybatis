@@ -1,7 +1,10 @@
 package com.example.demo;
 
+import lombok.Data;
+
 import java.util.List;
 
+@Data
 public class ParagraphVO extends BaseVO {
 
     private String name ;
@@ -10,7 +13,7 @@ public class ParagraphVO extends BaseVO {
      * 附件
      */
     @AttachAnnotion
-    private List<AttachVO> attachVOS;
+    private AttachInfoList attachInfoLists;
 
     /**
      * 附件关联Id
